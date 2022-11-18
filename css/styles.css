@@ -15,14 +15,31 @@
     --text-color: #757575;
     --text-white-color: #FFFFFF;
     --accent-color: #2196F3;
-    --logo-color-1: #2196F3;
-    --logo-color-2: #000000;
+    --logo-color-accent: #2196F3;
+    --logo-color: #000000;
     --logo-border-color: #000000;
     --primary-bcg-color: #F5F5F5;
     --secondary-bcg-color: #2F303A;
     --primary-white-color: #FFFFFF;
 
 }
-body {
 
+body {
+    background-color: var(--primary-white-color);
+}
+    
+.logo {
+    color: var(--logo-color);
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+}
+.logo span {
+    color: var(--logo-color-accent);
+    border: 1px solid #000000;
+}
+.list {
+    list-style: none;
 }
