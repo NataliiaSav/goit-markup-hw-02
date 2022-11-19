@@ -13,11 +13,11 @@
 :root {
     --title-color: #212121;
     --text-color: #757575;
-    --text-white-color: #FFFFFF;
     --accent-color: #2196F3;
     --logo-color: #000000;
     --primary-bcg-color: #F5F5F5;
     --secondary-bcg-color: #2F303A;
+    --third-bcg-color: #F5F4FA;
     --primary-white-color: #FFFFFF;
 
 }
@@ -75,7 +75,7 @@ body {
     background-color: var(--secondary-bcg-color);
 }
 .hero-title{
-    color: var(--text-white-color);
+    color: var(--primary-white-color);
     font-family: 'Roboto';
     font-weight: 900;
     font-size: 44px;
@@ -83,4 +83,54 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+}
+.button {
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 1.87;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+.section {
+    background-color: var(--primary-bcg-color);
+    font-family: 'Roboto';
+    letter-spacing: 0.03em;
+}
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    color: var(--title-color);
+}
+.section-subtitle {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--title-color)
+}
+.section-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--text-color)
+}
+.section-team {
+    background-color: var(--third-bcg-color);
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+.team-member {
+    font-weight: 500;
+    color: var(--title-color);
+}
+.member-descr {
+    font-weight: 400;
+    color: var(--text-color);
 }
