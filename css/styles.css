@@ -24,6 +24,7 @@ body {
     background-color: var(--primary-white-color);
     font-family: 'Roboto', sans-serif;
     color: var(--text-color);
+    letter-spacing: 0.03em;
 }
     
 .logo {
@@ -33,7 +34,7 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
-    letter-spacing: 0.03em;
+   
     text-decoration: none;
 }
 .logo span {
@@ -94,7 +95,7 @@ body {
 }
 .section {
     background-color: var(--primary-bcg-color);
-     letter-spacing: 0.03em;
+     
 }
 .section-title {
     font-weight: 700;
@@ -118,8 +119,7 @@ body {
     background-color: var(--third-bcg-color);
     font-size: 16px;
     line-height: 1.19;
-    letter-spacing: 0.03em;
-}
+    }
 .team-member {
     font-weight: 500;
     color: var(--title-color);
@@ -134,7 +134,6 @@ body {
     font-size: 14px;
     font-style: normal;
     line-height: 1.7;
-    letter-spacing: 0.03em;
     color: var(--primary-white-color);
     text-decoration: none;
 }
@@ -149,9 +148,22 @@ body {
     font-size: 16px;
     line-height: 1.6;
     text-align: center;
-    letter-spacing: 0.03em;
-}
+    }
 .button.secondary {
     background-color: var(--third-bcg-color);
     color: var(--title-color);
 }
+.filter {
+    background-color: var(--primary-bcg-color);
+}
+.filter.title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--title-color);
+}
+.filter.text {
+    font-size: 16px;
+    line-height: 1.9;
+    }
