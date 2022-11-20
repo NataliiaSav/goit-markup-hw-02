@@ -51,7 +51,7 @@ body {
     letter-spacing: 0.02em;
     text-decoration: none;
 }
-.site-nav.link-current {
+.site-nav .link.current {
     color: var(--accent-color);
 }
 .site-nav .link:hover,
@@ -86,8 +86,8 @@ body {
     background-color: var(--accent-color);
     color: var(--primary-white-color);
     font-weight: 700;
-    font-size: 1.87;
-    line-height: 30px;
+    font-size: 16px;
+    line-height: 1.9;
     text-align: center;
     letter-spacing: 0.06em;
     cursor: pointer;
@@ -141,4 +141,17 @@ body {
 .address:hover,
 .address:focus {
     color: var(--accent-color);
+}
+/* portfolio */
+
+.button.primary {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.button.secondary {
+    background-color: var(--third-bcg-color);
+    color: var(--title-color);
 }
