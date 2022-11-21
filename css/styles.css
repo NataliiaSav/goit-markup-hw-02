@@ -91,10 +91,6 @@ body {
     letter-spacing: 0.06em;
     cursor: pointer;
 }
-.section {
-    background-color: var(--primary-bcg-color);
-    font-weight: 700;
-}
 .section-title {
     font-size: 36px;
     line-height: 1.17;
